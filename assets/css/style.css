@@ -5,6 +5,19 @@
     box-sizing: border-box;
 }
 
+.name a{
+    text-decoration: none;
+
+}
+
+/* style header */
+header nav ul li{
+    display: inline;
+    font-size: 20px;
+    margin: 0 20px;
+    padding: 0 8px;
+}
+
 /* style name */
 header h1{
     font-weight: lighter;
@@ -14,18 +27,6 @@ header h1{
     margin: 0;
 }
 
-.name a{
-    text-decoration: none;
-    color: white;
-}
-
-/* style header */
-header nav ul li{
-    display: inline;
-    font-size: 20px;
-    padding: 0 20px;
-}
-
 header nav{
     float: right;
     padding: 10px 40px;
@@ -33,11 +34,28 @@ header nav{
 
 header{
     padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 header a{
     text-decoration: none;
     color: black;
+    justify-content: left;
+    padding: 8px;
+}
+header nav ul li a:hover{
+    border-bottom: 1px solid #ffcba4;
+    color: #ffcba4;
+}
+
+.header nav ul{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;
+    list-style: none;
+    width: 100%;
 }
 
 /* style footer */
