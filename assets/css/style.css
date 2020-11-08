@@ -33,9 +33,13 @@ header nav{
 }
 
 header{
-    padding: 10px 0;
+    padding: 10px 0 0 0;
     display: flex;
     justify-content: space-between;
+    background-image: url("../images/header.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 header a{
@@ -74,3 +78,11 @@ footer h2{
     padding: 5px 10px;
 }
 
+/* style hero */
+.hero{
+    background-image: url("../images/header.jpeg");
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-position: center;
+}
