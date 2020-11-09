@@ -176,9 +176,8 @@ address a{
     object-fit: cover;
     vertical-align: bottom;
     display: flex;
-
-
 }
+
 .projects .important{
     flex: 1 60%;
 }
