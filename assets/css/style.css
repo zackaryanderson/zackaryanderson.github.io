@@ -218,7 +218,7 @@ address a{
 }
 
 /* media queries */
-@media screen and (max-width: 980px){
+@media screen and (max-width: 1025px){
     .projects a{
         font-size: 30px;
     }
