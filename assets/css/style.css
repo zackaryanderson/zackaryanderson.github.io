@@ -158,12 +158,14 @@ address a{
 .projects li{
     height: 40vh;
     flex-grow: 1;
+    position: relative;
 }
 .projects img{
     max-height: 100%;
     min-width: 100%;
     object-fit: cover;
     vertical-align: bottom;
+    display: inline-block;
 }
 .projects li{
     position: relative;
@@ -174,61 +176,22 @@ address a{
     bottom: 8px;
     right: 16px;
 }
-.projects ul li a{
-    font-size: 20px;
-    color: black;
-    text-decoration: none;
-}
-.projects ul::after{
+
+.projects li::after{
     content: "";
     height: 100%;
     width: 100%;
-    background: linear-gradient(rgba(252,225,56,0.3),rgba(2,78,118,1));
+    background: linear-gradient(to bottom right,rgba(0,0,0,0),rgba(255,255,255,0.8));
     position: absolute;
     top: 0;
     left: 0;
     transition: 0.5s;
-    opacity: 0;
 }
-.projects img:hover, .projects ul li a{
-    opacity: 1;
+.projects a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
 }
-/* .project-grid-wrapper{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-}
-.project-grid-container{
-    background: lightblue;
-    width: 80%;
-    display: grid;
-    grid-template-columns: 1fr repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    font-size: 1.5rem;
-    color: yellow;
-}
-.project-grid-item{
-    display: flex;
-    padding: 15px;
-    border: 1px solid black;
-    justify-content: flex-end;
-    align-content: flex-end;
-}
-.project-grid-item.run-buddy{
-    background-image: url("../images/runbuddy.jpg");
-    background-position: absolute;
-    grid-column: 1 / span 2;
-    background-size: cover;
-}
-.project-grid-item.filler2{
-    grid-column: 2 / span 2;
-    grid-row: 2;
-    background-image: url("../images/filler2.jpeg");
-    background-position: absolute;
-}
-.project-grid-item.filler3{
-    grid-column: 1 / span 2;
-    grid-row: 3;
-    background-image: url("../images/filler3.png");
-    background-position: absolute;
-} */
+
