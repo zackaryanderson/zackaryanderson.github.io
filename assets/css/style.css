@@ -212,6 +212,10 @@ address a{
     font-weight: bold;
     font-style: italic;
 }
+.projects a:hover{
+    border-bottom: 1px solid #ffcba4;
+    color: #ffcba4;
+}
 
 /* media queries */
 @media screen and (max-width: 980px){
