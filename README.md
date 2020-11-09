@@ -1,14 +1,14 @@
 # zackaryanderson.github.io
 
-##Purpose:
+## Purpose:
 A professional portfolio to display my design capabilities.
 
-##Built With
+## Built With
 *Html
 *CSS
 
-##Website
+## Website
 [Zackary Anderson](https://zackaryanderson.github.io/)
 
-##Screenshot
+## Screenshot
 ![Screenshot of Webpage](assets/images/ScreenShot.jpg)
