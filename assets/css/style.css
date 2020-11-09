@@ -225,6 +225,9 @@ address a{
     .about img{
         height: 20vh;
     }
+    .about .about-img2{
+        display: none;
+    }
 }
 @media screen and (max-width: 575px){
     .about img{
