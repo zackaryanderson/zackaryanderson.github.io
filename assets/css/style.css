@@ -216,7 +216,7 @@ address a{
 /* media queries */
 @media screen and (max-width: 980px){
     .projects a{
-        font-size: 20px;
+        font-size: 30px;
     }
     .about img{
         height: 20vh;
@@ -226,11 +226,17 @@ address a{
     .about img{
         height: 15vh;
     }
-    .about-img2{
-        opacity: 0;
+    .about .about-img2{
+        display: none;
     }
     .projects a{
         font-size: 60px;
+    }
+    header nav ul li a{
+        font-size: 30px;
+    }
+    footer address{
+        font-size: 30px;
     }
 }
 
