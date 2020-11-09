@@ -28,7 +28,13 @@ header h1{
 }
 
 header nav{
-    padding: 10px 40px;
+    margin: 7px 0;
+    align-self: center;
+}
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
 }
 
 header{
@@ -56,13 +62,12 @@ header nav ul li a:hover{
     color: #ffcba4;
 }
 
-.header nav ul{
-    display:flex;
+header nav ul{
+    display: flex;
     flex-wrap: wrap;
-    justify-content: right;
+    justify-content: space-around;
     align-items: center;
     list-style: none;
-    width: 100%;
 }
 
 /* style footer */
@@ -227,6 +232,25 @@ address a{
     .about .about-img2{
         display: none;
     }
+    header{
+        padding-bottom: 0;
+        align-content: center;
+        position: relative;
+        flex-direction: column;
+    }
+
+    header h1{
+        text-align: center;
+    }
+
+    header nav ul{
+        width: 100%;
+        justify-content: center;
+        align-self: center;
+    }
+    header nav ul li a {
+        font-size: 20px;
+    }
 }
 @media screen and (max-width: 575px){
     .about img{
@@ -236,13 +260,21 @@ address a{
         display: none;
     }
     .projects a{
-        font-size: 60px;
+        font-size: 30px;
     }
     header nav ul li a{
-        font-size: 30px;
+        font-size: 20px;
     }
     footer address{
-        font-size: 30px;
+        font-size: 20px;
     }
+    .paragraph{
+        width: 100%;
+    }
+    .projects ul{
+        width: 100%;
+        margin: 15px 0 15px 0;
+    }
+
 }
 
