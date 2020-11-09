@@ -41,14 +41,14 @@ header{
     padding: 10px 0 0 0;
     display: flex;
     justify-content: space-between;
-    /* background-image: url("../images/header.jpeg");
+    /* background-image: url("../images/papertexture.jpg");
     background-size: cover;
-    background-position: center;
-    background-attachment: fixed; */
+    background-position: center; */
+    background-attachment: fixed;
     z-index: 9999;
     position: sticky;
     top: 0;
-    background-color: white;
+    /* background-color: white; */
 }
 
 header a{
@@ -85,48 +85,66 @@ address a{
 
 /* style hero */ 
 .hero{
-    background-image: url("../images/header.jpeg");
-    background-size: cover;
-    background-position: center;
-    display:flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    background-attachment: fixed;
-    background-position: 80%;
-    padding: 0;
+    background-color: white;
+    position: relative;
 }
+
+.hero-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: wrap;
+    height: 95vh;
+}
+.hero .hero-text1{
+    flex: 1;
+    font-size: 80px;
+    text-align: right;
+    width: 50%;
+    position: relative;
+    padding: 0 5px;
+    color: pink;
+}
+.hero .hero-text2{
+    flex: 2;
+    font-size: 80px;
+    text-align: left;
+    width: 50%;
+    position: relative;
+    padding: 0 5px;
+}
+
 
 /* general styling */
 .section-title{
-    margin: 10px auto 10px auto;
+    margin: 10px;
     border-bottom: 2px solid black;
     color: black;
     width: 50%;
-    text-align: center;
+    text-align: left;
     font-size: 40px;
     font-weight: lighter;
 }
 
 /* style bio */
 .about{
-    background-image: url("../images/header.jpeg");
+    /* background-image: url("../images/papertexture.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: center; */
     display:flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-position: 80%;
     padding: 0 0 20px 0;
 }
 .about h2{
-    margin: 10px auto 10px auto;
+    margin: 10px;
     border-bottom: 2px solid black;
     color: black;
     width: 50%;
-    text-align: center;
+    text-align: right;
     font-size: 40px;
     font-weight: lighter;
 }
