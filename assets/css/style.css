@@ -111,6 +111,7 @@ address a{
     text-align: left;
     width: 50%;
     position: relative;
+    margin: 0 10px;
     padding: 0 5px;
 }
 
@@ -269,11 +270,24 @@ address a{
     header nav ul li a {
         font-size: 20px;
     }
+    .hero-text2{
+        border-left: 1px solid black;
+    }
+    
 }
 @media screen and (max-width: 575px){
     .about img{
         height: 15vh;
     }
+    .hero .hero-text1, .hero .hero-text2{
+        font-size: 30px;
+    }
+    .hero-text2{
+        border-left: 1px solid black;
+    }
+    /* .hero-text{
+        height: 80vh;
+    } */
     .about .about-img2{
         display: none;
     }
