@@ -117,9 +117,13 @@ address a{
     font-size: 40px;
 }
 .about img{
-    width: auto;
-    max-height: 200px;
-    margin: 10px;
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    padding: 15px;
+    align-items: flex-end;
+    background-size: cover;
+    position: relative;
 }
 .paragraph{
     width: 50%;
@@ -144,8 +148,52 @@ address a{
     font-weight: bold;
 }
 
-/* style projects grid */
-.project-grid-wrapper{
+/* style projects */
+.projects ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    list-style: none;
+}
+.projects li{
+    height: 40vh;
+    flex-grow: 1;
+}
+.projects img{
+    max-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+}
+.projects li{
+    position: relative;
+    text-align: center;
+}
+.bottom-right{
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+.projects ul li a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.projects ul::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(252,225,56,0.3),rgba(2,78,118,1));
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    opacity: 0;
+}
+.projects img:hover, .projects ul li a{
+    opacity: 1;
+}
+/* .project-grid-wrapper{
     display: flex;
     width: 100%;
     justify-content: center;
@@ -183,4 +231,4 @@ address a{
     grid-row: 3;
     background-image: url("../images/filler3.png");
     background-position: absolute;
-}
+} */
