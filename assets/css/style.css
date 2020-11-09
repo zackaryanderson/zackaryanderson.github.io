@@ -159,6 +159,7 @@ address a{
     height: 40vh;
     flex-grow: 1;
     position: relative;
+    flex: 1 40%;
 }
 .projects img{
     max-height: 100%;
@@ -167,6 +168,10 @@ address a{
     vertical-align: bottom;
     display: inline-block;
 }
+.projects .important{
+    flex: 1 60%;
+}
+
 .projects li{
     position: relative;
     text-align: center;
@@ -181,7 +186,7 @@ address a{
     content: "";
     height: 100%;
     width: 100%;
-    background: linear-gradient(to bottom right,rgba(0,0,0,0),rgba(255,255,255,0.8));
+    background: linear-gradient(to bottom right,rgba(0,0,0,0),rgba(0,0,0,0),rgba(255,255,255,1));
     position: absolute;
     top: 0;
     left: 0;
