@@ -294,7 +294,13 @@ address a{
     .hero-text2{
         border-left: 1px solid black;
     }
-    
+    .section-title{
+        text-align: center;
+    }
+    .about h2{
+        text-align: center;
+        margin: auto;
+    }
 }
 @media screen and (max-width: 575px){
     .about img{
