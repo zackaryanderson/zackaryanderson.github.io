@@ -61,7 +61,7 @@ header .name{
 }
 
 header nav ul li a:hover{
-    background-color: orange;
+    background-color: #fd5e53;
     color: white;
     border-radius: 15px;
 }
@@ -108,12 +108,12 @@ address a{
 }
 .hero .hero-text1{
     flex: 1;
-    font-size: 80px;
+    font-size: 70px;
     text-align: right;
     width: 50%;
     position: relative;
     padding: 0 5px;
-    color: orange;
+    color: #fd5e53;
 }
 .hero .hero-text2{
     flex: 1;
@@ -124,6 +124,9 @@ address a{
     margin: 0 10px;
     padding: 0 5px;
     color: black;
+}
+.hero a{
+    font-size: 70px;
 }
 
 /* style bio */
@@ -140,7 +143,6 @@ address a{
     padding: 0 0 20px 0;
 }
 .about h2{
-    margin: 10px;
     border-bottom: 2px solid black;
     color: black;
     width: 60%;
