@@ -126,18 +126,6 @@ address a{
     color: black;
 }
 
-/* general styling */
-.section-title{
-    margin: 10px;
-    padding-top: 10px;
-    border-bottom: 2px solid black;
-    color: black;
-    width: 50%;
-    text-align: left;
-    font-size: 40px;
-    font-weight: lighter;
-}
-
 /* style bio */
 .about{
     /* background-image: url("../images/papertexture.jpg"); */
@@ -145,7 +133,6 @@ address a{
     background-size: cover;
     background-position: center;
     display:flex;
-    justify-content: center;
     flex-wrap: wrap;
     align-items: center;
     background-attachment: fixed;
@@ -156,7 +143,7 @@ address a{
     margin: 10px;
     border-bottom: 2px solid black;
     color: black;
-    width: 50%;
+    width: 60%;
     text-align: right;
     font-size: 40px;
     font-weight: lighter;
@@ -214,15 +201,11 @@ address a{
     display: flex;
 }
 
-/* .projects .important{
-    flex: 1 60%;
-} */
 .projects{
     /* background: linear-gradient(90deg, white 50%, lightblue 50%); */
     background-size: cover;
     background-position: center;
     display:flex;
-    justify-content: center;
     flex-wrap: wrap;
     align-items: center;
     background-attachment: fixed;}
@@ -261,6 +244,20 @@ address a{
     color: #ffcba4;
 }
 
+/* general styling */
+.section-title{
+    padding-left: 10px;
+    padding-top: 10px;
+    border-bottom: 2px solid black;
+    color: black;
+    width: 60%;
+    text-align: left;
+    font-size: 40px;
+    font-weight: lighter;
+    display:flex;
+    justify-content: left;
+}
+
 /* media queries */
 @media screen and (max-width: 1025px){
     .projects a{
@@ -296,10 +293,17 @@ address a{
     }
     .section-title{
         text-align: center;
+        width: 95%;
+        justify-content: center;
+        margin: auto;
     }
     .about h2{
         text-align: center;
         margin: auto;
+        width: 95%;
+    }
+    address{
+        padding-left: 20px;
     }
 }
 @media screen and (max-width: 575px){
