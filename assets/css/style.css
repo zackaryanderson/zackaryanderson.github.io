@@ -61,8 +61,9 @@ header .name{
 }
 
 header nav ul li a:hover{
-    border-bottom: 1px solid #ffcba4;
-    color: #ffcba4;
+    background-color: orange;
+    color: white;
+    border-radius: 15px;
 }
 
 header nav ul{
@@ -112,7 +113,7 @@ address a{
     width: 50%;
     position: relative;
     padding: 0 5px;
-    color: pink;
+    color: orange;
 }
 .hero .hero-text2{
     flex: 1;
@@ -124,7 +125,6 @@ address a{
     padding: 0 5px;
     color: black;
 }
-
 
 /* general styling */
 .section-title{
