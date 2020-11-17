@@ -64,7 +64,15 @@ header nav ul li a:hover{
     background-color: #fd5e53;
     color: white;
     border-radius: 15px;
+    box-shadow: 0 1px grey;
+    top: -2px;
+    position: relative;
 }
+header nav ul li a:active{
+    box-shadow: 0 0px grey;
+    top: 0;
+}
+
 
 header nav ul{
     display: flex;
