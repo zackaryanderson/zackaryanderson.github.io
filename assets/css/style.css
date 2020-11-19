@@ -282,12 +282,13 @@ address a{
     header{
         padding-bottom: 0;
         align-content: center;
-        position: relative;
+        position: fixed;
         flex-direction: column;
     }
 
     header h1{
         text-align: center;
+        padding-bottom: 0;
     }
 
     header nav ul{
@@ -323,11 +324,11 @@ address a{
     .hero .hero-text1, .hero .hero-text2{
         font-size: 30px;
     }
-    .hero-text2{
+    .option{
         border-left: 1px solid black;
     }
     .hero-text{
-        height: 80vh;
+        height: 99vh;
     }
     .about .about-img2{
         display: none;
