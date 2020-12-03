@@ -1,7 +1,10 @@
+address{
+    text-align: left;
+}
 
 /* CODE FROM https://codepen.io/McTastic/pen/eYZbKMQ *Thank you for the great photo grid!! */
-  body {
-    margin: 20px;
+  main {
+    margin: 0 20px;
     padding: 0;
     text-align: center;
   }

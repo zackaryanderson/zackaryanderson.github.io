@@ -87,12 +87,13 @@ address{
     font-weight: lighter;
     line-height: 1.3;
     padding: 0 10px;
+    margin-top: 10px;
     margin-bottom: 30px;
 }
 
 address a{
     text-decoration: none;
-    color: black;
+    color: #fd5e53;
 }
 
 /* style hero */ 
