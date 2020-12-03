@@ -251,7 +251,7 @@ address a{
 }
 .projects a:hover{
     border-bottom: 1px solid #ffcba4;
-    color: #ffcba4;
+    color: #fd5e53;
 }
 
 /* general styling */
@@ -284,6 +284,7 @@ address a{
         align-content: center;
         position: fixed;
         flex-direction: column;
+        width: 100%;
     }
 
     header h1{
@@ -298,6 +299,7 @@ address a{
     }
     header nav ul li a {
         font-size: 20px;
+        padding: 5px;
     }
     .option{
         border-left: 1px solid black;
