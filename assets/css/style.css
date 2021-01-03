@@ -112,7 +112,7 @@ address a{
     justify-content: center;
     align-items: center;
     flex: wrap;
-    height: 95vh;
+    height: 99vh;
 }
 .hero .hero-text1{
     flex: 1;
@@ -250,10 +250,10 @@ address a{
         font-size: 30px;
     }
     .about img{
-        height: 20vh;
-    }
-    .about .about-img2{
-        display: none;
+        max-height: 30vh;
+        max-width: 200px;
+        height: auto;
+        width: auto;
     }
     header{
         padding-bottom: 0;
@@ -289,8 +289,10 @@ address a{
     }
     .about h2{
         text-align: center;
-        margin: auto;
+        justify-content: center;
         width: 95%;
+        margin: auto;
+        margin-bottom: 5px;
     }
     address{
         padding-left: 20px;
@@ -298,19 +300,18 @@ address a{
 }
 @media screen and (max-width: 575px){
     .about img{
-        height: 15vh;
+        max-height: 53vh;
+        max-width: 80%;
+        height: auto;
+        width: auto;
+        padding-bottom: 5px;
+        padding-left: 99px;
     }
     .hero .hero-text1, .hero .hero-text2{
         font-size: 30px;
     }
     .option{
         border-left: 1px solid black;
-    }
-    .hero-text{
-        height: 99vh;
-    }
-    .about .about-img2{
-        display: none;
     }
     .projects a{
         font-size: 30px;
