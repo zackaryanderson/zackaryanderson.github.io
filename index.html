@@ -2,13 +2,14 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Zack Anderson</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="./assets/css/funhikesstyle.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="shortcut icon" type="image/jpg"
         href="https://lh3.googleusercontent.com/proxy/JqwgtZArqQWQZZGAL9kLuQ0yEYD_vp-wdDCCxbpwkQV7gKd0YvxtS9H4rJEL8jstl-ywMiuyBVYmnZ-e9C71QwCJmoXDW0HKl7qAgUf6Ivy0IPfMDkkrIhEaMsPtju8V2leHq8vYKl6F9z8ZCRa1TXD4Y53LRguleHgq" />
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
 <body>
@@ -36,75 +37,92 @@
     </header>
     <section class="hero">
         <h2 class="hero-text">
-            <div class="hero-text1"><a class="hero-text2">"</a>Hi im Zack,</div>
-            <div class="hero-text2 option">a Developer and Engineer<a class="hero-text1">"</a></div>
+            <div class="hero-text1">"Hi im Zack,</div>
+            <div class="hero-text2 option">a Developer and Engineer"</div>
         </h2>
     </section>
-    <section class="projects" id="projects">
-        <h2 class="section-title">
-            Projects
-        </h2>
-        <ul class="project-img">
-            <li class="important webpage">
-                <img src="./assets/images/runbuddy.png" />
-                <div class="bottom-right"><a href="https://zackaryanderson.github.io/run-buddy/" target="_blank">Run Buddy</a></div>
-            </li>
-            <li>
-                <img src="./assets/images/filler1.jpeg"/>
-                <div class="bottom-right"><a href="" target="_blank">Project 2</a></div>
-            </li>
-            <li class="webpage">
-                <img src="./assets/images/horiseon.png"/>
-                <div class="bottom-right"><a href="https://zackaryanderson.github.io/challenge1/" target="_blank">Horiseon</a></div>
-            </li>
-            <li>
-                <img src="./assets/images/filler2.jpeg"/>
-                <div class="bottom-right"><a href="" target="_blank">Project 4</a></div>
-            </li>
-            <li>
-                <img src="./assets/images/filler3.png"/>
-                <div class="bottom-right"><a href="" target="_blank">Project 5</a></div>
-            </li>
-            <li>
-                <img src="./assets/images/filler4.jpeg"/>
-                <div class="bottom-right"><a href="" target="_blank">Project 6</a></div>
-            </li>
-        </ul>
-    </section>
-    <section id="aboutme" class="about">
-        <div class="about-container">
-            <h2>
-                About
+    <main class="container">
+        <section class="projects" id="projects">
+            <h2 class="section-title">
+                Projects
             </h2>
-            <div class="paragraph p1">
-                <p>
-                    <a>Professionally: </a>I am an engineer and a developer, and I look to keep life interesting through learning and
-                    exploring. I strive to push myself and those around me to achieve more and to grow as we do. I look to leave projects better than I found them and to perform at the highest standard possible.
-                </p>
-                <div class="about-img1">
-                    <img src="./assets/images/zackaryanderson.jpg" alt="Zack Anderson" />
+            <ul class="row">
+                <li class="project col-12 col-lg-6">
+                    <img src="./assets/images/runbuddy.png" />
+                    <div class="bottom-right"><a href="https://zackaryanderson.github.io/run-buddy/" target="_blank">Run
+                            Buddy</a></div>
+                </li>
+                <li class="project col-12 col-lg-6">
+                    <img src="./assets/images/filler1.jpeg" />
+                    <div class="bottom-right"><a href="" target="_blank">Project 2</a></div>
+                </li>
+                <li class="project col-12 col-lg-6">
+                    <img src="./assets/images/horiseon.png" />
+                    <div class="bottom-right"><a href="https://zackaryanderson.github.io/challenge1/"
+                            target="_blank">Horiseon</a></div>
+                </li>
+                <li class="project col-12 col-lg-6">
+                    <img src="./assets/images/filler2.jpeg" />
+                    <div class="bottom-right"><a href="" target="_blank">Project 4</a></div>
+                </li>
+                <li class="project col-12 col-lg-6">
+                    <img src="./assets/images/filler3.png" />
+                    <div class="bottom-right"><a href="" target="_blank">Project 5</a></div>
+                </li>
+                <li class="project col-12 col-lg-6">
+                    <img src="./assets/images/filler4.jpeg" />
+                    <div class="bottom-right"><a href="" target="_blank">Project 6</a></div>
+                </li>
+            </ul>
+        </section>
+        <section id="aboutme" class="about">
+            <div class="about-container row">
+                <h2>
+                    About
+                </h2>
+                <div class="row">
+                    <img class="col-12 col-md-2" src="./assets/images/zackaryanderson.jpg" alt="Zack Anderson" />
+                    <p class="col-12 col-md-9">
+                        <a>Professionally: </a>I am an engineer and a developer, and I look to keep life
+                        interesting
+                        through learning and
+                        exploring. I strive to push myself and those around me to achieve more and to grow as we
+                        do.
+                        I
+                        look to leave projects better than I found them and to perform at the highest standard
+                        possible.
+                    </p>
+                </div>
+                <div class="row">
+                    <p class="col-12 col-md-6 text-right">
+                        <a>Privately: </a>My passion is the outdoors. While my preference is skiing, I am not
+                        particular about how I spend my time outside.
+                    </p>
+                    <img class="col-12 col-md-6" src="./assets/images/zackclimbing.jpeg"
+                    alt="Zack climbing the North Face" />
                 </div>
             </div>
-            <div class="paragraph p2">
-                <div class="about-img2">
-                    <img src="./assets/images/zackclimbing.jpeg" alt="Zack climbing the North Face" />
-                </div>
-                <p>
-                    <a>Privately: </a>My passion is the outdoors. While my preference is skiing, I am not particular about how I spend my time outside.
-                </p>
-            </div>
-        </div>
-    </section>
-    <footer>
-        <h2 id="contact" class="section-title">
-            Contact Me
-        </h2>
-        <address>
-            Phone: (847) 804-4660<br />
-            Email: <a href="mailto:zanderson1998@yahoo.com" target="_blank">zanderson1998@yahoo.com</a><br />
-            Linkedin: <a href="https://www.linkedin.com/in/zackary-anderson/" target="_blank">Zackary Anderson</a>
-        </address>
-    </footer>
+        </section>
+        <footer>
+            <h2 id="contact" class="section-title">
+                Contact Me
+            </h2>
+            <address>
+                Phone: (847) 804-4660<br />
+                Email: <a href="mailto:zanderson1998@yahoo.com" target="_blank">zanderson1998@yahoo.com</a><br />
+                Linkedin: <a href="https://www.linkedin.com/in/zackary-anderson/" target="_blank">Zackary Anderson</a>
+            </address>
+        </footer>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -46,8 +46,6 @@ header{
     z-index: 9999;
     position: sticky;
     top: 0;
-    /* border-bottom: 1px solid black; */
-    /* background-color: white; */
 }
 
 header a{
@@ -67,6 +65,7 @@ header nav ul li a:hover{
     box-shadow: 0 1px grey;
     top: -2px;
     position: relative;
+    text-decoration: none;
 }
 header nav ul li a:active{
     box-shadow: 0 0px grey;
@@ -155,54 +154,37 @@ address a{
     border-bottom: 2px solid black;
     color: black;
     width: 60%;
-    text-align: right;
+    text-align: left;
     font-size: 40px;
     font-weight: lighter;
+    padding-left: 10px;
 }
 .about img{
-    width: auto;
+    max-width: 500px;
     max-height: 30vh;
-    display: flex;
-    padding: 15px;
-    align-items: flex-end;
+    width: auto;
+    height: auto;
+    padding: 0 15px 15px 15px;
     background-size: cover;
-    position: relative;
 }
 .paragraph{
     width: 50%;
-    display: flex;
     align-content: center;
     margin: 15px auto;
-    background-color: rgba(127,127,127,0.8);
+    background-color: rgba(253,94,83, 0.7);
     border-radius: 10px;
 }
-.about p{
-    padding: 10px 10px;
-    font-size: 20px;
-    line-height: 1.3;
-}
-.about .p1{
-    text-align: right;
-}
-.about .p2{
-    text-align: left;
-}
+
 .about p a{
     font-weight: bold;
 }
 
 /* style projects */
 .projects ul{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 15px 60px 60px 60px;
     list-style: none;
 }
 .projects li{
     height: 30vh;
-    flex-grow: 1;
-    position: relative;
-    flex: 1 40%;
 }
 .projects img{
     height: 100%;
@@ -210,37 +192,27 @@ address a{
     object-fit: cover;
     vertical-align: bottom;
     display: flex;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px grey;
 }
 
 .projects{
     /* background: linear-gradient(90deg, white 50%, lightblue 50%); */
     background-size: cover;
     background-position: center;
-    display:flex;
-    flex-wrap: wrap;
     align-items: center;
-    background-attachment: fixed;}
-
-.projects li{
-    position: relative;
-    text-align: center;
+    background-attachment: fixed;
 }
+.project{
+    margin-bottom: 10px;
+}
+
 .bottom-right{
     position: absolute;
     bottom: 8px;
-    right: 16px;
+    right: 24px;
 }
 
-.projects li::after{
-    content: "";
-    height: 100%;
-    width: 100%;
-    background: linear-gradient(to bottom right,rgba(0,0,0,0),rgba(0,0,0,0),rgba(255,255,255,0.5),rgba(176,176,176,1));
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: 0.5s;
-}
 .projects a{
     font-size: 30px;
     color: white;
@@ -249,10 +221,13 @@ address a{
     z-index: 1;
     font-weight: bold;
     font-style: italic;
+    background-color: rgba(253,94,83, 0.4);
+    border-radius: 5px;
+    padding: 2px;
 }
 .projects a:hover{
-    border-bottom: 1px solid #ffcba4;
-    color: #fd5e53;
+    background-color: rgba(253,94,83, 1);
+    text-decoration: none;
 }
 
 /* general styling */
@@ -310,6 +285,7 @@ address a{
         width: 95%;
         justify-content: center;
         margin: auto;
+        margin-bottom: 5px;
     }
     .about h2{
         text-align: center;
