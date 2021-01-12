@@ -1,5 +1,5 @@
 * {
-    font-family: "Arial Narrow", sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,54 +11,19 @@
 }
 
 /* style header */
-header nav ul li{
-    display: inline;
-    font-size: 20px;
-    margin: 0 20px;
-    padding: 0 8px;
-}
-
-/* style name */
-header h1{
-    font-weight: lighter;
-    padding: 10px 10px;
-    font-size: 30px;
-    display: inline;
-    margin: 0;
-}
-
-header nav{
-    margin: 7px 0;
-    align-self: center;
-}
-header nav ul li a {
-    padding: 10px 15px;
-    font-weight: lighter;
-    font-size: 1.55vw;
-}
-
 header{
-    padding: 5px 0 0 0;
-    display: flex;
-    justify-content: space-between;
-    background: white; 
-    background-attachment: fixed;
     z-index: 9999;
-    position: sticky;
-    top: 0;
 }
-
-header a{
-    text-decoration: none;
-    color: black;
-    justify-content: left;
-    padding: 8px;
+.navbar{
+    background-color: rgba(255,255,255,0.7);
 }
-header .name{
-    color: black;
+.font-size{
+    font-size: 4vh;
 }
-
-header nav ul li a:hover{
+.font-size-small{
+    font-size: 3vh;
+}
+.nav-item:hover{
     background-color: #fd5e53;
     color: white;
     border-radius: 15px;
@@ -67,18 +32,9 @@ header nav ul li a:hover{
     position: relative;
     text-decoration: none;
 }
-header nav ul li a:active{
+.nav-item:active{
     box-shadow: 0 0px grey;
     top: 0;
-}
-
-
-header nav ul{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
 }
 
 /* style footer */
@@ -112,7 +68,7 @@ address a{
     justify-content: center;
     align-items: center;
     flex: wrap;
-    height: 90vh;
+    height: 99vh;
 }
 .hero .hero-text1{
     flex: 1;
@@ -243,6 +199,7 @@ address a{
     font-weight: lighter;
     display:flex;
     justify-content: left;
+    margin-top: 15px;
 }
 
 /* media queries */
