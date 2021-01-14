@@ -290,6 +290,9 @@ address a{
         width: 100%;
         margin: 15px 0 15px 0;
     }
+    .hide{
+        display: none;
+    }
 
 }
 
