@@ -11,7 +11,7 @@
 
   This is my professional portfolio that provides some of the projects I have worked on as well as how to contact me. 
   
-  ![Portfolio](ScreenShot.png)
+  ![Portfolio](./assets/images/ScreenShot.png)
   
   ![License Badge](https://img.shields.io/badge/license-MIT-brightgreen)
   
