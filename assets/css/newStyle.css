@@ -1,0 +1,77 @@
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-snap-type: y mandatory
+}
+
+section {
+    scroll-snap-align: start;
+}
+
+:root {
+    --primary-color: #FFBA49;
+    --secondary-color: #20A39E;
+    --tertiary-color: #EF5B5B;
+    --fourth-color: #23001E;
+    --fifth-color: #A4A9AD;
+}
+
+.hero{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+}
+
+/* projects */
+.projects {
+    overflow-x: auto;
+    white-space: nowrap;
+    height: 100vh;
+    background-color: var(--secondary-color);
+    align-items: center;
+}
+
+.projects::-webkit-scrollbar {
+    display: none;
+}
+
+.projects .project {
+    display: inline-block;
+    text-align: center;
+    float: none;
+    width: 80vh;
+    height: 80vh;
+    margin: 20vh 40vh 0 40vh;
+}
+
+.project img {
+    filter: blur(2px);
+    border-radius: 20px;
+}
+
+/* about me */
+#about {
+    height: 100vh;
+}
+
+.about-me img {
+    max-height: auto;
+    size: cover;
+    position: center;
+    max-width: 30vh;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.card {
+    padding: 0;
+}
