@@ -31,34 +31,33 @@ section {
 
 /* projects */
 .projects {
-    overflow-x: auto;
-    white-space: nowrap;
     height: 100vh;
     background-color: var(--secondary-color);
-    align-items: center;
 }
 
-.projects::-webkit-scrollbar {
-    display: none;
+.projects .card { 
+    border-radius: 0;
 }
 
-.projects .project {
-    display: inline-block;
-    text-align: center;
-    float: none;
-    width: 80vh;
-    height: 80vh;
-    margin: 20vh 40vh 0 40vh;
+.projects .card:hover {
+
+    transition: 0.5s;
 }
 
-.project img {
+.projects img {
     filter: blur(2px);
-    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.card-img-overlay {
+    top: 40%;
+    text-align: center;
 }
 
 /* about me */
 #about {
     height: 100vh;
+    background-color: var(--tertiary-color);
 }
 
 .about-me img {
@@ -74,4 +73,11 @@ section {
 
 .card {
     padding: 0;
+}
+
+/* media queries */
+@media screen and (max-width: 800px){
+    .projects {
+        height: 200vh;
+    }
 }
