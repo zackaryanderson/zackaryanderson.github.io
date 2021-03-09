@@ -93,6 +93,7 @@ section {
 
 .card-group {
     border-radius: 15px;
+    align-items: center;
 }
 
 /* about me */
@@ -118,6 +119,7 @@ section {
 
 .center {
     justify-content: center;
+    margin-top: 2vh;
 }
 
 /* contact me */
@@ -134,4 +136,8 @@ section {
     .projects {
         height: 200vh;
     }
+    .project {
+        margin-top: 1vh;
+    }
+
 }
