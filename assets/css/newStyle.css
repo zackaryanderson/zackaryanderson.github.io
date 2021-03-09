@@ -22,13 +22,13 @@ section {
 }
 
 .header {
-    /* padding-left: 10vw; */
     text-align: center;
 }
 
-/* nav {
-    background-color: var(--fourth-color);
-} */
+section h2 {
+    box-shadow: 0 1px 3px black;
+    display: inline-block;
+}
 
 .extra-padding {
     padding-top: 12vh;
@@ -40,6 +40,10 @@ section {
     align-items: center;
     justify-content: center;
     background-color: var(--primary-color);
+}
+
+.hero h2 {
+    box-shadow: 0 1px 3px black;
 }
 
 /* projects */
@@ -60,11 +64,14 @@ section {
     filter: none;
     transition: 0.5s;
     border-radius: 15px;
+    height: 25vh;
+    border: 1px solid black;
 }
 
 .project:hover img{
-    filter: blur(4px);
+    filter: blur(6px);
     transition: 0.5s;
+    opacity: 0.9;
 }
 
 .project h3, .project p {
@@ -86,7 +93,7 @@ section {
 }
 
 .card-img-overlay {
-    top: 40%;
+    top: 35%;
     text-align: center;
     padding-bottom: 0;
 }
@@ -119,7 +126,21 @@ section {
 
 .center {
     justify-content: center;
-    margin-top: 2vh;
+    margin-top: 4vh;
+}
+
+svg {
+    color: white;
+    fill: white;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: var(--fifth-color);
+    text-decoration: none;
 }
 
 /* contact me */
@@ -139,5 +160,10 @@ section {
     .project {
         margin-top: 1vh;
     }
-
+    .center-align {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
