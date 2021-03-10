@@ -3,119 +3,141 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Zack Anderson</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&display=swap" rel="stylesheet">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="icon" sizes="any" type="image/svg+xml"
-        href="./assets/images/mountain-svgrepo-com.svg" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-light fixed-top navbar-expand-lg font-size-small">
-            <div class="container">
-                <a class="navbar-brand font-size" href="./index.html">Zack Anderson</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon text-success"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link active"></a>
-                        <a class="nav-item nav-link active" href="#projects">Projects</a>
-                        <a class="nav-item nav-link active" href="#aboutme">About Me</a>
-                        <a class="nav-item nav-link active" href="#contact">Contact</a>
-                        <a class="nav-item nav-link active" href="./funhikes.html">Photos</a>
-                        <!-- <a href="./blog.html">Blog</a> -->
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top">
+        <div class="navbar-collapse collapse w-100 dual-collapse2 order-1 order-md-0">
+            <ul class="navbar-nav ml-auto text-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects" data-bs-toggle="tab">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about" data-bs-toggle="tab">About</a>
+                </li>
+            </ul>
+        </div>
+        <div class="mx-auto my-2 order-0 order-md-1 position-relative">
+            <a class="navbar-brand h1 text-light" style="margin-left: 15px" href="./index.html">Zack Anderson</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse w-100 dual-collapse2 order-2 order-md-2">
+            <ul class="navbar-nav mr-auto text-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact" data-bs-toggle="tab">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#extra" data-bs-toggle="tab">Extra</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="hero">
+        <div class="center-align">
+            <h2><a class="text-light">Hi I'm Zack.</a> A Developer and Engineer.</h2>
+        </div>
+    </section>
+    <main>
+        <section class="projects" id="projects">
+            <div class="header extra-padding">
+                <h2 class="text-light">Projects:</h2>
+            </div>
+            <div class="card-group center">
+                <div class="col-md-4 col-11 project">
+                    <img class="card-img" src="./assets/images/DevHubNewScreenShot.png">
+                    <div class="card-img-overlay">
+                        <h3><a class="text-dark" href="https://devhubhome.herokuapp.com/" target="_blank">DevHub</a>
+                        </h3>
+                        <p>The Social Media For Developers</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-11 project">
+                    <img class="card-img" src="./assets/images/Screen Shot 2021-01-08 at 11.54.00 AM.png">
+                    <div class="card-img-overlay">
+                        <h3><a class="text-dark" href="https://jakerobs.github.io/group-12/" target="_blank">Trivia
+                                Kings</a></h3>
+                        <p>Jeopardy Based Trivia Game</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-11 project">
+                    <img class="card-img" src="./assets/images/Robot-gladiators.gif">
+                    <div class="card-img-overlay">
+                        <h3><a class="text-dark" href="https://zackaryanderson.github.io/robot-gladiators/"
+                                target="_blank">Robot Gladiators</a></h3>
+                        <p>A Fun and Interactive Text Based Game</p>
                     </div>
                 </div>
             </div>
-        </nav>
-    </header>
-    <section class="hero">
-        <h2 class="hero-text">
-            <div class="hero-text1">"Hi im Zack,</div>
-            <div class="hero-text2 option">a Developer and Engineer"</div>
-        </h2>
-    </section>
-    <main class="container">
-        <section class="projects" id="projects">
-            <h2 class="section-title">
-                Projects
-            </h2>
-            <ul class="row">
-                <li class="project col-12 col-lg-6">
-                    <img src="./assets/images/homePage.png" />
-                    <div class="bottom-right"><a href="https://devhubhome.herokuapp.com/" target="_blank">DevHub</a></div>
-                </li>
-                <li class="project col-12 col-lg-6">
-                    <img src="./assets/images/Screen Shot 2021-01-08 at 11.54.00 AM.png" />
-                    <div class="bottom-right"><a href="https://jakerobs.github.io/group-12/" target="_blank">Trivia
-                            Kings</a></div>
-                </li>
-                <li class="project col-12 col-lg-6">
-                    <img src="./assets/images/photos-page/5023F802-225E-4917-8EEE-47D8AB4E3604_1_105_c.jpeg" />
-                    <div class="bottom-right"><a href="https://zackaryanderson.github.io/robot-gladiators/"
-                            target="_blank">Robot Gladiator</a></div>
-                </li>
-                <li class="project col-12 col-lg-6">
-                    <img src="./assets/images/runbuddy.png" />
-                    <div class="bottom-right"><a href="https://zackaryanderson.github.io/run-buddy/" target="_blank">Run
-                            Buddy</a></div>
-                </li>
-                <li class="project col-12 col-lg-6">
-                    <img src="./assets/images/horiseon.png" />
-                    <div class="bottom-right"><a href="https://zackaryanderson.github.io/challenge1/"
-                            target="_blank">Horiseon</a></div>
-                </li>
-                <li class="project col-12 col-lg-6">
-                    <img src="./assets/images/Screen Shot 2021-01-08 at 12.10.30 PM.png" />
-                    <div class="bottom-right"><a href="https://zackaryanderson.github.io/weather-app/"
-                            target="_blank">Weather App</a></div>
-                </li>
-        </section>
-        <section id="aboutme" class="about">
-            <h2 class="section-title">
-                About
-            </h2>
-            <div class="row">
-                <img class="col-12 col-md-2" src="./assets/images/zackaryanderson.jpg" alt="Zack Anderson" />
-                <p class="col-12 col-md-9">
-                    <a>Professionally: </a>I am an engineer and a developer, and I look to keep life
-                    interesting
-                    through learning and
-                    exploring. I strive to push myself and those around me to achieve more and to grow as we
-                    do.
-                    I
-                    look to leave projects better than I found them and to perform at the highest standard
-                    possible.
-                </p>
-            </div>
-            <div class="row">
-                <p class="col-12 col-md-9 text-left text-lg-right">
-                    <a>Privately: </a>My passions lie in the outdoors and in people. Having the opportunity to combine
-                    both of these into one activity is as perfect as it can get for me. Especially if the
-                    activity is skiing!
-                </p>
-                <img class="col-12 col-md-2 hide" src="./assets/images/zackclimbing.jpeg"
-                        alt="Zack climbing the North Face" />
+            <div class="card-group center" style="margin-top: 1vh">
+                <div class="col-md-4 col-11 project">
+                    <img class="card-img" src="./assets/images/DevHubCodeScreenShot.png">
+                    <div class="card-img-overlay">
+                        <h3><a href="https://devhubhome.herokuapp.com/" target="_blank">Tech News</a></h3>
+                        <p class="text-light">The New News Platform for Technology</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-11 project">
+                    <img class="card-img" src="./assets/images/runbuddy.png">
+                    <div class="card-img-overlay">
+                        <h3><a href="https://zackaryanderson.github.io/run-buddy/" target="_blank">Run Buddy</a></h3>
+                        <p>An Example Webpage</p>
+                    </div>
+                </div>
             </div>
         </section>
-        <footer class="container">
-            <h2 id="contact" class="section-title">
-                Contact Me
-            </h2>
+        <section class="about-me" id="about">
+            <div class="header extra-padding">
+                <h2 class="text-light">About:</h2>
+            </div>
+            <div class="container">
+                <div class="row center">
+                    <img class="round col-md-5 col-3" src="./assets/images/zackaryanderson.jpg" alt="Zack Anderson" />
+                    <div class="card col-11 col-md-3">
+                        <div class="card-body">
+                            <div class="card-title">Professionally:</div>
+                            <p>
+                                I am an engineer and a developer, and I look to keep life
+                                interesting through learning and exploring. I strive to push myself and those around me
+                                to
+                                achieve more and to grow as we
+                                do. I look to leave projects better than I found them and to perform at the highest
+                                standard
+                                possible.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section id="contact">
+            <div class="header extra-padding">
+                <h2 class='text-light'>Contact Me:</h2>
+            </div>
             <address>
-                Phone: (847) 804-4660<br />
-                Email: <a href="mailto:zanderson1998@yahoo.com" target="_blank">zanderson1998@yahoo.com</a><br />
-                Linkedin: <a href="https://www.linkedin.com/in/zackary-anderson/" target="_blank">Zackary Anderson</a><br />
-                GitHub: <a href="https://github.com/zackaryanderson" target="_blank">Zackary Anderson</a>
+                <span class="oi oi-envelope-closed"></span>: <a href="mailto:zanderson1998@yahoo.com"
+                    target="_blank">zanderson1998@yahoo.com</a><br />
+                <span class="oi oi-phone"></span>: (847) 804-4660<br />
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                    <path
+                        d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                </svg>: <a href="https://www.linkedin.com/in/zackary-anderson/" target="_blank">Zackary
+                    Anderson</a><br />
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                    <path
+                        d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                </svg>: <a href="https://github.com/zackaryanderson" target="_blank">Zackary Anderson</a>
             </address>
-        </footer>
+        </section>
     </main>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -126,6 +148,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <!-- <script src="./assets/javascript/script.js"></script> -->
 </body>
 
 </html>
