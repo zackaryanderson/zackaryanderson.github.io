@@ -7,6 +7,7 @@
   * [License](#license)  
 
 
+
   ## Description
 
   This is my professional portfolio that provides some of the projects I have worked on as well as how to contact me. 
