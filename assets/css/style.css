@@ -166,4 +166,11 @@ a:hover {
         margin-right: auto;
         margin-left: auto;
     }
+    .project img {
+        filter: blur(2px);
+    }
+    .project h3, .project p {
+        position: relative;
+        top: -10%;
+    }
 }
