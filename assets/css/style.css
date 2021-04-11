@@ -147,8 +147,9 @@ a:hover {
 #contact {
     background-color: var(--fourth-color);
     color: white;
-    height: 50vh;
+    /* height: 20vh; */
     text-align: center;
+    padding-bottom: 10px;
 }
 
 
